@@ -1,7 +1,12 @@
-const marksWeight = 78;
-const marksHeight = 1.69;
-const johnWeight = 92;
-const johnHeight = 1.95;
+// const marksWeight = 78;
+// const marksHeight = 1.69;
+// const johnWeight = 92;
+// const johnHeight = 1.95;
+
+const marksWeight = 95;
+const marksHeight = 1.88;
+const johnWeight = 85;
+const johnHeight = 1.76;
 
 const calculateBMI = (mass, height) => mass / height ** 2;
 const calculateBMIAlternative = (mass, height) => mass /(height * height)
@@ -19,3 +24,4 @@ console.log('John\'s BMI is: ', johnsBMI);
 
 console.log('Mark\'s alternative BMI is: ', marksAlternativeBMI);
 console.log('John\'s alternative BMI is: ', johnsAlternativeBMI);
+console.log('Is Mark\'s BMI higher than John\'s ? ', markHigherBMI);
